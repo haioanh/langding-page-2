@@ -335,3 +335,61 @@ a {
 .course-item .buy-btn:hover {
     background-color: var(--color-primary);
 }
+/* ========= feedback ========= */
+.feedback {
+    background-color: #2e2100;
+    min-height: 380px;
+    width: 100%vw;
+}
+.feedback-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0;
+}
+.feedback-info .img-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.feedback-info .name {
+    margin-top: 18px;
+    font-family: var(--font-sen);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+}
+.feedback-info .desc {
+    margin-top: 4px;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+.dots {
+    margin-top: 28px;
+    display: flex;
+    gap: 6px;
+}
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #634700;
+}
+.dot:nth-child(2) {
+    background-color: var(--color-primary);
+}
+.feedback-content {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+.feedback-item {
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+    padding-left: 30px;
+    font-style: italic;
+}
+/* ========= feature ======== */
