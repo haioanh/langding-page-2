@@ -25,6 +25,7 @@ a {
     min-width: 118px;
     text-align: center;
     font-weight: 600;
+    font-size: 1.6rem;
 }
 .btn:hover {
     opacity: 0.9;
@@ -76,7 +77,6 @@ a {
 }
 .action .action-btn {
     min-width: 144px;
-    font-size: 1.6rem;
 }
 .nav-item:first-child a {
     position: relative;
@@ -393,3 +393,56 @@ a {
     font-style: italic;
 }
 /* ========= feature ======== */
+.feature {
+    padding: 65px 0;
+    margin: 135px 0;
+}
+.feature-item,
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-item .images .item1 {
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.img-item2 {
+    width: 470px;
+    height: 440px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 20px;
+}
+.info1 {
+    width: 41%;
+}
+.images .item1.img1 {
+    margin-right: 30px;
+}
+.images .item1.img2 {
+    margin-bottom: 34px;
+}
+.feature-item .heading.lv2 {
+    font-size: 3.8rem;
+    line-height: 1.26;
+}
+.feature-item .desc {
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+    margin-top: 16px;
+}
+.feature-item .atc-btn {
+    margin-top: 32px;
+    min-width: 137px;
+    background-color: var(--color-primary);
+}
+.feature-item:last-child {
+    margin-top: 200px;
+}
+.info2 {
+    width: 49%;
+}
